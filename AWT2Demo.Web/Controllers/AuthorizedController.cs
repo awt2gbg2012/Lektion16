@@ -23,6 +23,7 @@ namespace AWT2Demo.Web.Controllers
             return View();
         }
 
+        [AuthorizeUser]
         public ActionResult UserDetails(int id)
         {
             return View();
