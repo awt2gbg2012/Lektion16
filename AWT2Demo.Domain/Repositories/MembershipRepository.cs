@@ -10,7 +10,7 @@ using System.Data.Objects.DataClasses;
 namespace AWT2Demo.Domain.Repositories
 {
     public class MembershipRepository
-    {/*
+    {
         protected ObjectContext _context;
         protected ObjectSet<aspnet_Users> _userObjectSet;
         protected ObjectSet<aspnet_Roles> _roleObjectSet;
@@ -46,6 +46,6 @@ namespace AWT2Demo.Domain.Repositories
         public IQueryable<aspnet_Users> GetUserNames()
         {
             return _userObjectSet.AsQueryable();
-        }*/
+        }
     }
 }
