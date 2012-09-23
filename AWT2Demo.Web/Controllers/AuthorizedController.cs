@@ -11,7 +11,7 @@ namespace AWT2Demo.Web.Controllers
     {
         //
         // GET: /Authorized/
-        
+        [Authorize]
         public ActionResult Index()
         {
             return View();
