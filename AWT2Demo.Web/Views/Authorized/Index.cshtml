@@ -8,7 +8,7 @@
 </p>
 This page should only be viewed by authorized users
 <p>
-    @if (User.Identity.IsAuthenticated)
+    @if (User.IsInRole("admin"))
     { 
         @Html.ActionLink("Details", "UserDetails", new { id = 1 })
     }
