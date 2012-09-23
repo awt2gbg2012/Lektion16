@@ -17,6 +17,7 @@ namespace AWT2Demo.Web.Controllers
             return View();
         }
 
+        [Authorize(Roles="admin")]
         public ActionResult Admin()
         {
             return View();
